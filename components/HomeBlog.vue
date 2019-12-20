@@ -210,9 +210,10 @@ export default {
   }
   .home-blog-wrapper {
     display flex
-    align-items: flex-start;
+    align-items flex-start
+    justify-content center
     margin 20px auto 0
-    max-width 1126px
+    max-width 1000px
     .abstract-wrapper {
       .abstract-item:last-child {
         margin-bottom: 0px;
